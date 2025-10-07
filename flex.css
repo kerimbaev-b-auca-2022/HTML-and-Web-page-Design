@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://cdn.imgchest.com/files/myd5crrqj4b.png");
+    opacity: .5;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 1400px;
+    flex-wrap: wrap;
+    gap: 22px;
+    display: flex;
+}
+
+.container > * {
+    background-color: lightblue;
+    border: 2px dashed blue;
+    color: blue;
+    font-size: 10rem;
+    height: 200px;
+    padding: 0px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.box1 { flex-basis: 100%; }
+
+.box2 { flex-basis: calc(22% + 1px); }
+
+.box3 { flex-basis: calc(78% - 23px); }
+
+.box4 { flex-basis: calc(39% - 4px); }
+
+.box5 { flex-basis: calc(39% - 4px); }
+
+.box6 { flex-basis: calc(19% + 6px); }
