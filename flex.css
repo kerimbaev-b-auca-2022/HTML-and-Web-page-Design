@@ -26,14 +26,14 @@ body {
     flex-shrink: 0;
 }
 
-.box1 { flex-basis: 100%; }
+.box1 { flex-basis: 1400px; }
 
-.box2 { flex-basis: calc(22% + 1px); }
+.box2 { flex-basis: 309px; }
 
-.box3 { flex-basis: calc(78% - 23px); }
+.box3 { flex-basis: 1069px; }
 
-.box4 { flex-basis: calc(39% - 4px); }
+.box4 { flex-basis: 542px; }
 
-.box5 { flex-basis: calc(39% - 4px); }
+.box5 { flex-basis: 542px; }
 
-.box6 { flex-basis: calc(19% + 6px); }
+.box6 { flex-basis: 272px; }
