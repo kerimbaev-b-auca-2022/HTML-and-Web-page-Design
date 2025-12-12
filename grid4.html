@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 9</title>
+        <link rel="stylesheet" href="grid4.css" class="style">
+        <img src="https://cdn.imgchest.com/files/myd5cr2k54b.png" style="position:absolute;top:0;left:0;z-index:-1">
+    </head>
+    <body>
+        <button onclick="switchStyle()" style="position:absolute; top:0; right:0;">Style</button>
+        <div class="container">
+
+            <div class="box logo">
+                <img src="https://cdn.imgchest.com/files/bab477a54f36.jpg" alt="Logo">
+            </div>
+
+            <div class="box menu">
+                <ul class="topmenu">
+                    <li>JSC "MAM"</li>
+                    <li>BISHKEK</li>
+                    <li>OSH</li>
+                    <li>ISSYK-KUL</li>
+                    <li>KARAKOL</li>
+                    <li>BATKEN</li>
+                </ul>
+            </div>
+
+            <div class="box hero">
+                <h1>New information</h1>
+            </div>
+
+            <div class="box flex1">
+                <div class="card">Top Section 1</div>
+                <div class="card">Top Section 2</div>
+                <div class="card">Top Section 3</div>
+            </div>
+
+            <div class="box flex2">
+                <div class="card2">Bottom Section 1</div>
+                <div class="card2">Bottom Section 2</div>
+                <div class="card2">Bottom Section 3</div>
+            </div>
+
+            <div class="box sidebar">
+                <div class="ad">Sidebar Content</div>
+            </div>
+        </div>
+        <script>
+        function switchStyle() {
+            let style = document.querySelector('.style');
+            if (style.getAttribute('href') === 'grid4.css') {
+                style.setAttribute('href', 'grid2.css');
+            } else {
+                style.setAttribute('href', 'grid4.css');
+            }
+        }
+        </script>
+    </body>
+</html>
